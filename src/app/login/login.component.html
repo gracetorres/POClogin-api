@@ -1,0 +1,33 @@
+<div class="w100 hv100 flex-row">
+  <div class="w60 flex al-center jc-center">
+    <div class="flex-column mw451">
+      <h1>Welcome!</h1>
+      <div class="flex-row p37 flex al-center jc-center">
+        <a class="mr25" href="javascript:void(0)">Password</a>
+        <a class="ml25" href="javascript:void(0)">Magic Link</a>
+      </div>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmitLoginForm()">
+        <div>
+          <label class="mb10">Email</label>
+          <input formControlName="userName" type="text" class="form-control mb20" placeholder="Email">
+
+          <label class="mb10">Password</label>
+          <input formControlName="password" type="password" class="form-control mb20" placeholder="Password">
+        </div>
+
+      <div class="flex jc-end">
+        <a href="javascript:void(0)">Forgot Password</a>
+      </div>
+      <div class="flex-row jc-bet al-center">
+        <button class="btn btn-primary" type="submit">
+          Sign In
+        </button>
+        <a href="javascript:void(0)">Sign Up</a>
+      </div>
+    </form>
+    </div>
+  </div>
+  <div class="w40">
+    1
+  </div>
+</div>

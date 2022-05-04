@@ -1,0 +1,85 @@
+.w60{
+  width: 60%;
+}
+.w40{
+  width: 40%;
+}
+.w100{
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.al-center{
+  align-items: center;
+}
+
+.jc-center{
+  justify-content: center;
+}
+
+.al-end{
+  align-items: flex-end;
+}
+
+.jc-end{
+  justify-content: flex-end;
+}
+
+.jc-bet{
+  justify-content: space-between;
+}
+
+.hv100{
+  height: 100vh;
+}
+
+.mw451{
+  min-width: 451px;
+}
+
+.p37{
+  padding: 37px 0 37px 0;
+}
+
+.mb10{
+  margin-bottom: 10px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .mw451 {
+    min-width: 300px;
+  }
+}
+
+.mr25{
+  margin-right: 25px;
+}
+
+.ml25{
+  margin-left: 25px;
+}
+
+.button{
+  padding:16px, 32px, 16px, 32px;
+}
+
+input.ng-touched.ng-invalid,select.ng-touched.ng-invalid{
+  border: 1px solid red;
+}
